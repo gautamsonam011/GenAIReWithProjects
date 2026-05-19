@@ -1,0 +1,22 @@
+How does LLM work?
+
+LLM model does not calculate values.
+
+user[chatgpt]: provide input to LLM --> [LLM] --> take help of external tools and provide calculated answer
+
+user give input [ChatGPT] --> [LLM( only predict answer if it unable to predict answer then it take help of other tools)] -->[Tool] that calculate answer then send to LLM , it provides answer to user
+
+It can form sentences for making sensible answer.
+
+if we want to talk with LLM then need API key.
+
+Go on:
+Google AI Studio
+
+step1:- npm init (for initialization)
+step2:- go to google ai studio overview and copy code
+step3:- create key and use in our code
+step4:- install @google/genai
+
+contents:- It works like a input box where we can write prompt. It does not store history of our previous chat.
+

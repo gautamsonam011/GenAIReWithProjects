@@ -1,0 +1,22 @@
+GenAI:- Generative AI, It means it is able to create own answer it does not store data.
+It is a pre-trained model on the data and predict answer with help of questions.
+
+It creates tokenization 
+
+Hi, How are you? if put on chatgpt then chatgpt analysis and predict answer 
+
+Hi, 56
+How 89
+are 908
+you 1278
+give input->
+[56, 89, 908, 1278] --> [chatgpt] --> predict next [56, 89, 908, 1278, 578[I]]
+next input [56, 89, 908, 1278, 578[I]] --> [chatgpt] --> predict next [56, 89, 908, 1278, 578[I], 6345[am]]
+next input [56, 89, 908, 1278, 578[I], 6345[am]] --> [chatgpt] --> predict next [56, 89, 908, 1278, 578[I], 6345[am], 1367[fine]]
+final [56, 89, 908, 1278, 578[I], 6345[am], 1367[fine]]
+output [578[I], 6345[am], 1367[fine]]
+show output I am fine.
+
+GPT -> Generative pre-trained Transformer
+
+

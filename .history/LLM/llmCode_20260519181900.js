@@ -1,0 +1,19 @@
+import { GoogleGenAI } from "@google/genai";
+
+const ai = new GoogleGenAI({apiKey: "AIzaSyD8zyZnhZVjulBpMTXO-dsEqshyKXvoTFs"});
+
+async function main() {
+  const response = await ai.models.generateContent({
+    model: "gemini-3-flash-preview",
+    // contents: "What is data structure algorithm?, explain in short",
+    contents: [
+        {
+            role: 'user',
+            parts: [{text: "Hi, I am Sonam"}]
+        }
+    ],
+  });
+  console.log(response.text);
+}
+
+await main();
